@@ -289,10 +289,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-regex@npm:^6.0.1":
-  version: 6.1.0
-  resolution: "ansi-regex@npm:6.1.0"
-  checksum: 495834a53b0856c02acd40446f7130cb0f8284f4a39afdab20d5dc42b2e198b1196119fe887beed8f9055c4ff2055e3b2f6d4641d0be018cdfb64fedf6fc1aac
+"ansi-regex@npm:^6.2.2":
+  version: 6.6.0
+  resolution: "ansi-regex@npm:6.6.0"
+  checksum: 101ea2a09dd4ab8a2329764a727280c76f38211c95156abd902a15de0a06939d02ca03075c873ff823459ff083a46e4a3c5aba66c7a4394eddfdddfc933e6fdc
   languageName: node
   linkType: hard
 
@@ -305,10 +305,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-styles@npm:^6.0.0":
-  version: 6.2.1
-  resolution: "ansi-styles@npm:6.2.1"
-  checksum: ef940f2f0ced1a6347398da88a91da7930c33ecac3c77b72c5905f8b8fe402c52e6fde304ff5347f616e27a742da3f1dc76de98f6866c69251ad0b07a66776d9
+"ansi-styles@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "ansi-styles@npm:7.0.0"
+  checksum: 94754b81c531cede91c0d49146f8adac80314c1d6503e3b1609bf4a61eeacd95b9ff732978bcef1ed23120968c5e75841f087536a112e0d38283b8b1dd8d18a8
   languageName: node
   linkType: hard
 
@@ -427,13 +427,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-truncate@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "cli-truncate@npm:4.0.0"
+"cli-truncate@npm:^6.1.1":
+  version: 6.2.0
+  resolution: "cli-truncate@npm:6.2.0"
   dependencies:
-    slice-ansi: ^5.0.0
-    string-width: ^7.0.0
-  checksum: d5149175fd25ca985731bdeec46a55ec237475cf74c1a5e103baea696aceb45e372ac4acbaabf1316f06bd62e348123060f8191ffadfeedebd2a70a2a7fb199d
+    slice-ansi: ^10.0.0
+    string-width: ^8.3.0
+  checksum: b3bc82f7892fd5cfbef43d49b7ec1467cc2eaae521e03ef44247dd7270ed93413f62d3299c45e2c771de230bcd6e213be9f366baa95997b9df588c6ae816fcb8
   languageName: node
   linkType: hard
 
@@ -606,14 +606,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-context-menu@npm:^4.0.5":
-  version: 4.0.5
-  resolution: "electron-context-menu@npm:4.0.5"
+"electron-context-menu@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "electron-context-menu@npm:5.1.0"
   dependencies:
-    cli-truncate: ^4.0.0
-    electron-dl: ^4.0.0
+    cli-truncate: ^6.1.1
+    electron-dl: ^5.0.0
     electron-is-dev: ^3.0.1
-  checksum: 4b486b65af658489661685414d605a388c433ca5f8543767310516509351043ffac242a34a66785d9cc68eee90640d765e49fba1237cbaa5c50490dc5509b9af
+  checksum: e0773f8d494d3383a09989d114fe0e9c34df62b400bd53fd500d34cfcbabd1557546e2fe08b8a30d140c11efa4815cadfcbda91e3e037b543dd715e1d5d9258a
   languageName: node
   linkType: hard
 
@@ -625,6 +625,18 @@ __metadata:
     pupa: ^3.1.0
     unused-filename: ^4.0.1
   checksum: 2c152be48bd66e9325f7e48ea53cdc41f2a8674361c6729117ebae2dc37ff22216ccf60545e8e554c89a505e350200ed8918a6011dd71e571c1b41553fb485ec
+  languageName: node
+  linkType: hard
+
+"electron-dl@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "electron-dl@npm:5.0.0"
+  dependencies:
+    ext-name: ^5.0.0
+    is-safe-filename: ^0.1.1
+    pupa: ^3.3.0
+    unused-filename: ^4.0.1
+  checksum: 5683d787cc1e8a4e7f524190a9130b05836b679b393b81d5d0b23c4857b7e899ea238b6553fa1a1b9bd498ca30f55309d7cd9d55bab760b88263b3acf1411473
   languageName: node
   linkType: hard
 
@@ -655,13 +667,6 @@ __metadata:
   bin:
     electron: cli.js
   checksum: 90f4b6cb8b664c28b679f4a07523baf639c1213692ecae12423dff533e18390571303e2d74e122bbe5f1ecdfe66623e5523daa85bd3bd8c84f2ec9d81d82d50b
-  languageName: node
-  linkType: hard
-
-"emoji-regex@npm:^10.3.0":
-  version: 10.4.0
-  resolution: "emoji-regex@npm:10.4.0"
-  checksum: a6d9a0e454829a52e664e049847776ee1fff5646617b06cd87de7c03ce1dfcce4102a3b154d5e9c8e90f8125bc120fc1fe114d523dddf60a8a161f26c72658d2
   languageName: node
   linkType: hard
 
@@ -1017,10 +1022,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-east-asian-width@npm:^1.0.0":
-  version: 1.3.0
-  resolution: "get-east-asian-width@npm:1.3.0"
-  checksum: 757a34c7a46ff385e2775f96f9d3e553f6b6666a8898fb89040d36a1010fba692332772945606a7d4b0f0c6afb84cd394e75d5477c56e1f00f1eb79603b0aecc
+"get-east-asian-width@npm:^1.5.0":
+  version: 1.7.0
+  resolution: "get-east-asian-width@npm:1.7.0"
+  checksum: 9fb8cfb036c220a8cb974975a8bd6b728ae985cd49c4cc27504e46f9cdbf4e8d0f3dd3f8cda8ce62bc59f77eaf6f296ff39c1f9254f3dd665f8aa65f85d92840
   languageName: node
   linkType: hard
 
@@ -1223,13 +1228,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-fullwidth-code-point@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "is-fullwidth-code-point@npm:4.0.0"
-  checksum: 8ae89bf5057bdf4f57b346fb6c55e9c3dd2549983d54191d722d5c739397a903012cc41a04ee3403fd872e811243ef91a7c5196da7b5841dc6b6aae31a264a8d
-  languageName: node
-  linkType: hard
-
 "is-glob@npm:^4.0.0, is-glob@npm:^4.0.3":
   version: 4.0.3
   resolution: "is-glob@npm:4.0.3"
@@ -1243,6 +1241,13 @@ __metadata:
   version: 1.1.0
   resolution: "is-plain-obj@npm:1.1.0"
   checksum: 0ee04807797aad50859652a7467481816cbb57e5cc97d813a7dcd8915da8195dc68c436010bf39d195226cde6a2d352f4b815f16f26b7bf486a5754290629931
+  languageName: node
+  linkType: hard
+
+"is-safe-filename@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "is-safe-filename@npm:0.1.1"
+  checksum: 476f9a523810457df79575566820ddec29354d004d3a8ff02b8df281a56dde22bbb2eecbec2e79bd89ea9303028a22a3db56e00646002169ed9bb25dd3721e86
   languageName: node
   linkType: hard
 
@@ -1548,7 +1553,7 @@ __metadata:
   dependencies:
     axios: ^1.8.4
     electron: 35.0.3
-    electron-context-menu: ^4.0.5
+    electron-context-menu: ^5.1.0
     electron-dl: ^4.0.0
     electron-store: ^10.0.0
     eslint: ^9.23.0
@@ -1599,6 +1604,15 @@ __metadata:
   dependencies:
     escape-goat: ^4.0.0
   checksum: 0e4f4ab6bbdce600fa6d23b1833f1af57b2641246ff4cbe10f9d66e4e5479b0de2864a88d5bd629eef59524eda3c6680726acd7f3f873d9ed46b7f095d0bb5f6
+  languageName: node
+  linkType: hard
+
+"pupa@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "pupa@npm:3.3.0"
+  dependencies:
+    escape-goat: ^4.0.0
+  checksum: a26b57cb4ff761495628b3630ab65fd97229d19314dbd9a08133d34f3f85fdb368da478f7b4a57647660c6d2973f0dae740668f8809c5861e3ede99e938ded05
   languageName: node
   linkType: hard
 
@@ -1703,13 +1717,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slice-ansi@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "slice-ansi@npm:5.0.0"
+"slice-ansi@npm:^10.0.0":
+  version: 10.0.1
+  resolution: "slice-ansi@npm:10.0.1"
   dependencies:
-    ansi-styles: ^6.0.0
-    is-fullwidth-code-point: ^4.0.0
-  checksum: 7e600a2a55e333a21ef5214b987c8358fe28bfb03c2867ff2cbf919d62143d1812ac27b4297a077fdaf27a03da3678e49551c93e35f9498a3d90221908a1180e
+    ansi-styles: ^7.0.0
+    string-width: ^8.3.0
+  checksum: 07e8d321bfd6fe9a04b6e36d184bc940c51dad09904b3e817d79939727d1c76116dcb0f40e7fa0bcf63f364f907bf02482f048693323570b0c06998708db5a73
   languageName: node
   linkType: hard
 
@@ -1738,23 +1752,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:^7.0.0":
-  version: 7.2.0
-  resolution: "string-width@npm:7.2.0"
+"string-width@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "string-width@npm:8.3.0"
   dependencies:
-    emoji-regex: ^10.3.0
-    get-east-asian-width: ^1.0.0
-    strip-ansi: ^7.1.0
-  checksum: 42f9e82f61314904a81393f6ef75b832c39f39761797250de68c041d8ba4df2ef80db49ab6cd3a292923a6f0f409b8c9980d120f7d32c820b4a8a84a2598a295
+    get-east-asian-width: ^1.5.0
+    strip-ansi: ^7.1.2
+  checksum: cfe6b3c8387ca79048436a85a37b8df1917f7f0c3dd708db4cec097ee3b61a8c92e22538702b3af100d154b85113cae53c10f5c2efddbbcd7763df11c2e76970
   languageName: node
   linkType: hard
 
-"strip-ansi@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "strip-ansi@npm:7.1.0"
+"strip-ansi@npm:^7.1.2":
+  version: 7.2.0
+  resolution: "strip-ansi@npm:7.2.0"
   dependencies:
-    ansi-regex: ^6.0.1
-  checksum: 859c73fcf27869c22a4e4d8c6acfe690064659e84bef9458aa6d13719d09ca88dcfd40cbf31fd0be63518ea1a643fe070b4827d353e09533a5b0b9fd4553d64d
+    ansi-regex: ^6.2.2
+  checksum: 96da3bc6d73cfba1218625a3d66cf7d37a69bf0920d8735b28f9eeaafcdb6c1fe8440e1ae9eb1ba0ca355dbe8702da872e105e2e939fa93e7851b3cb5dd7d316
   languageName: node
   linkType: hard
 
