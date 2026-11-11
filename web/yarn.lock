@@ -6085,10 +6085,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "date-fns@npm:4.1.0"
-  checksum: fb681b242cccabed45494468f64282a7d375ea970e0adbcc5dcc92dcb7aba49b2081c2c9739d41bf71ce89ed68dd73bebfe06ca35129490704775d091895710b
+"date-fns@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "date-fns@npm:4.4.0"
+  checksum: 9a25020573f1aeaddfa0a41bb32411e8e1e8c81ddb870865a005c37f741778c737833baee350a90f275ae806dcd227e41bc4f26337dda189ebca796ce760ba11
   languageName: node
   linkType: hard
 
@@ -13639,7 +13639,7 @@ __metadata:
     cross-env: ^7.0.3
     css-loader: ^7.1.2
     css-minimizer-webpack-plugin: ^7.0.0
-    date-fns: ^4.1.0
+    date-fns: ^4.4.0
     diff-arrays-of-objects: ^1.1.8
     eslint: ^9.23.0
     eslint-plugin-jest: ^28.10.0
